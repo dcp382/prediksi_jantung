@@ -11,7 +11,7 @@ st.title('Prediksi Penyakit Jantung')
 col1,col2,col3 = st.columns(3)
 
 with col1:
-    age = st.number_input('Umur')
+    age = st.number_input('Umur',min_value=0)
 
 with col2:
     sex_input = st.selectbox(
