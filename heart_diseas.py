@@ -64,7 +64,7 @@ with col2:
     )
 
 with col3:
-    ca = st.number_input('Nilai Pembuluh Darah')
+    ca = st.number_input('Nilai Pembuluh Darah',min_value=0,max_value=3)
 
 with col1:
     thal_input = st.selectbox(
